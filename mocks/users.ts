@@ -1,0 +1,65 @@
+import { User } from '@/types/auth';
+
+export const mockUser: User = {
+  id: '1',
+  username: 'player1',
+  email: 'player1@example.com',
+  avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1780&auto=format&fit=crop',
+  balance: 1000,
+  vipLevel: 2,
+  createdAt: '2023-01-15T12:00:00Z',
+  lastLogin: '2023-06-20T08:30:00Z',
+};
+
+export const leaderboardUsers: User[] = [
+  {
+    id: '2',
+    username: 'highroller',
+    email: 'highroller@example.com',
+    avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=1887&auto=format&fit=crop',
+    balance: 25000,
+    vipLevel: 5,
+    createdAt: '2022-11-05T10:15:00Z',
+    lastLogin: '2023-06-19T22:45:00Z',
+  },
+  {
+    id: '3',
+    username: 'luckystar',
+    email: 'luckystar@example.com',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop',
+    balance: 18500,
+    vipLevel: 4,
+    createdAt: '2022-12-18T14:30:00Z',
+    lastLogin: '2023-06-20T09:15:00Z',
+  },
+  {
+    id: '4',
+    username: 'gambler123',
+    email: 'gambler123@example.com',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop',
+    balance: 12300,
+    vipLevel: 3,
+    createdAt: '2023-01-22T08:45:00Z',
+    lastLogin: '2023-06-19T18:30:00Z',
+  },
+  {
+    id: '5',
+    username: 'casinoqueen',
+    email: 'casinoqueen@example.com',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1770&auto=format&fit=crop',
+    balance: 9800,
+    vipLevel: 3,
+    createdAt: '2023-02-14T16:20:00Z',
+    lastLogin: '2023-06-20T07:45:00Z',
+  },
+  {
+    id: '1',
+    username: 'player1',
+    email: 'player1@example.com',
+    avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1780&auto=format&fit=crop',
+    balance: 1000,
+    vipLevel: 2,
+    createdAt: '2023-01-15T12:00:00Z',
+    lastLogin: '2023-06-20T08:30:00Z',
+  },
+];

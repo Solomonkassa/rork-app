@@ -1,0 +1,55 @@
+import { Transaction } from '@/types/wallet';
+
+export const mockTransactions: Transaction[] = [
+  {
+    id: '1',
+    type: 'deposit',
+    amount: 500,
+    status: 'completed',
+    timestamp: '2023-06-15T14:30:00Z',
+    reference: 'DEP123456',
+  },
+  {
+    id: '2',
+    type: 'bet',
+    amount: -50,
+    status: 'completed',
+    timestamp: '2023-06-16T10:15:00Z',
+    gameId: '1',
+    gameName: 'Classic Keno',
+  },
+  {
+    id: '3',
+    type: 'win',
+    amount: 150,
+    status: 'completed',
+    timestamp: '2023-06-16T10:20:00Z',
+    gameId: '1',
+    gameName: 'Classic Keno',
+  },
+  {
+    id: '4',
+    type: 'bet',
+    amount: -20,
+    status: 'completed',
+    timestamp: '2023-06-17T16:45:00Z',
+    gameId: '2',
+    gameName: '75-Ball Bingo',
+  },
+  {
+    id: '5',
+    type: 'bonus',
+    amount: 100,
+    status: 'completed',
+    timestamp: '2023-06-18T09:00:00Z',
+    reference: 'WELCOME_BONUS',
+  },
+  {
+    id: '6',
+    type: 'withdrawal',
+    amount: -200,
+    status: 'pending',
+    timestamp: '2023-06-19T11:30:00Z',
+    reference: 'WD789012',
+  },
+];
